@@ -1,0 +1,16 @@
+.hasWeeklys{
+    background-color: #73ff00;
+}
+.noWeeklys{
+    background-color: rgb(255, 23, 23);
+}
+
+#ticker{
+    width: 99%;
+    height: 25%;
+    font: 22em bold tahoma;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    border: 3px solid black;
+}
