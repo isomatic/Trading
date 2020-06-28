@@ -6,11 +6,22 @@
 }
 
 #ticker{
-    width: 99%;
-    height: 25%;
-    font: 22em bold tahoma;
+    font: 2em bold tahoma;
     text-transform: uppercase;
-    position: absolute;
     text-align: center;
-    border: 3px solid black;
 }
+
+#screen{
+    width: 100%;
+    height: 500px;
+}
+#chart{
+    border: 2px solid black;
+    background-color: aqua;
+    position: relative;
+}
+
+html, body, .container{
+    height: 100%;
+}
+

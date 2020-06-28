@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Scanner</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="weeklys.css">
-    <input  maxlength="4" onkeypress="return (event.charCode > 64 && 
-    event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" id="ticker" type="text">
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="tickerInput">
+                        <input  maxlength="4" onkeypress="return (event.charCode > 64 && 
+                    event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" id="ticker" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="chart"></div>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="cboeweeklys.js"></script>
     <script type="text/javascript" src="weeklys.js"></script>
+</body>
 </html>
